@@ -1,0 +1,7 @@
+USE vendas;
+
+CREATE TABELE Nota_fiscal (
+    Numero_NF INTEGER,
+    Data_NF DATA,
+    Valor_NF FLOAT
+);

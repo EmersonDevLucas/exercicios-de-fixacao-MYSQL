@@ -1,0 +1,3 @@
+USE vendas;
+
+ALTER TABLE Nota_fiscal ADD COLUMN ICMS FLOAT AFTER Numero_NF; 

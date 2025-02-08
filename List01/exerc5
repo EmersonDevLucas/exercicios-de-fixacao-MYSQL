@@ -1,0 +1,3 @@
+USE vendas;
+
+ALTER TABLE Produto MODIFY COLUMN Descrição_Produto VARCHAR(50);

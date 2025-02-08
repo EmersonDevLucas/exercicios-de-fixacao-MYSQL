@@ -1,0 +1,3 @@
+USE vendas;
+
+ALTER TABLE Nota_fiscal RENAME COLUMN Valor_NF TO ValorTotal_NF; 

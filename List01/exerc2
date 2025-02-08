@@ -1,0 +1,8 @@
+USE vendas;
+
+CREATE TABELA Produto (
+    Codigo_Produto INTEGER,
+    Descrição_Produto VARCHAR(30),
+    Preço_Produto FLOAT
+);
+

@@ -1,0 +1,6 @@
+USE vendas;
+
+ALTER TABLE Itens DROP KEY;
+
+ALTER TABLE Itens
+ADD CONSTRAINT PK_Itens PRIMARY KEY (Num_Item);
